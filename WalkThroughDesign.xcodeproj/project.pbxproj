@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850B43662095813B00A2F1C8 /* SwippingControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B43652095813B00A2F1C8 /* SwippingControllerExtensions.swift */; };
 		85425BFA2076C127000A2673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85425BF92076C127000A2673 /* AppDelegate.swift */; };
 		85425BFC2076C127000A2673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85425BFB2076C127000A2673 /* ViewController.swift */; };
 		85425BFF2076C127000A2673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85425BFD2076C127000A2673 /* Main.storyboard */; };
 		85425C012076C128000A2673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85425C002076C128000A2673 /* Assets.xcassets */; };
 		85425C042076C128000A2673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85425C022076C128000A2673 /* LaunchScreen.storyboard */; };
+		85425C0C2076D758000A2673 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85425C0B2076D758000A2673 /* SwipingController.swift */; };
+		85425C0E2076DB07000A2673 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85425C0D2076DB07000A2673 /* PageCell.swift */; };
+		85DA992D208FF7BF00354416 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DA992C208FF7BF00354416 /* PageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850B43652095813B00A2F1C8 /* SwippingControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingControllerExtensions.swift; sourceTree = "<group>"; };
 		85425BF62076C127000A2673 /* WalkThroughDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkThroughDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85425BF92076C127000A2673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85425BFB2076C127000A2673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		85425C002076C128000A2673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85425C032076C128000A2673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85425C052076C128000A2673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85425C0B2076D758000A2673 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		85425C0D2076DB07000A2673 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		85DA992C208FF7BF00354416 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				85425C002076C128000A2673 /* Assets.xcassets */,
 				85425C022076C128000A2673 /* LaunchScreen.storyboard */,
 				85425C052076C128000A2673 /* Info.plist */,
+				85425C0B2076D758000A2673 /* SwipingController.swift */,
+				85425C0D2076DB07000A2673 /* PageCell.swift */,
+				85DA992C208FF7BF00354416 /* PageModel.swift */,
+				850B43652095813B00A2F1C8 /* SwippingControllerExtensions.swift */,
 			);
 			path = WalkThroughDesign;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850B43662095813B00A2F1C8 /* SwippingControllerExtensions.swift in Sources */,
 				85425BFC2076C127000A2673 /* ViewController.swift in Sources */,
+				85DA992D208FF7BF00354416 /* PageModel.swift in Sources */,
 				85425BFA2076C127000A2673 /* AppDelegate.swift in Sources */,
+				85425C0E2076DB07000A2673 /* PageCell.swift in Sources */,
+				85425C0C2076D758000A2673 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
